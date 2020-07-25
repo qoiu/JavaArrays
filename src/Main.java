@@ -8,7 +8,7 @@ public class Main {
         MyArrayList mal=new MyArrayList();
         Random random=new Random();
         for (int i = 0; i < 100_000 ; i++) {
-            mal.add(random.nextInt(100));
+            mal.add(random.nextInt(100000));
         }
         mal.add(5,3,7,0);
         mal.add(0,404);

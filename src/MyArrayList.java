@@ -152,7 +152,7 @@ public class MyArrayList<Item extends Comparable>{
         for (int i = 1; i < size; i++) {
             int j=i;
             key=list[j];
-            while (j>0 && comparator.compare(list[j - 1], key) < 0){
+            while (j>0 && comparator.compare(key,list[j - 1]) < 0){
                 list[j]=list[j-1];
                 j--;
             }
