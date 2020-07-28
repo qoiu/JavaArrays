@@ -1,3 +1,4 @@
+package lesson02;
 
 import java.util.Comparator;
 import java.util.Date;
@@ -15,7 +16,7 @@ public class Main {
         System.out.println(mal.toString());
         Date timer=new Date();
         //mal.selectionSort();//100_000=8973
-        //mal.selectionSort(Comparator.naturalOrder());
+        mal.selectionSort(Comparator.naturalOrder());
         //mal.insertionSort();//100_000=2846;
         mal.insertionSort(Comparator.naturalOrder());
        // mal.bubbleSort();//100_000=26477

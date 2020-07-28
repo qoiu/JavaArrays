@@ -1,3 +1,7 @@
+package lesson02;
+
+import lesson02.MyArrayList;
+
 import java.util.Comparator;
 
 public class MySortedArrayList<Item extends Comparable<Item> & Comparator> extends MyArrayList<Item> {
