@@ -33,6 +33,20 @@ public class Main {
             System.out.println(s);
         }
 
+        MyLinkedQueue<Integer> mlq=new MyLinkedQueue<>();
+        mlq.insert(1);
+        mlq.insert(2);
+        mlq.insert(3);
+        System.out.println(mlq.peek());
+        System.out.println(mlq.peek());
+        System.out.println(mlq.toString());
+        System.out.println(mlq.remove());
+        System.out.println(mlq.remove());
+        System.out.println(mlq.toString());
+        System.out.println(mlq.remove());
+        System.out.println(mlq.toString());
+
+
 
     }
 }
