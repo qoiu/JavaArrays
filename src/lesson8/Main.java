@@ -29,6 +29,18 @@ public class Main {
             chm.put(random.nextInt(100),"");
         }
 
+        chm.put(125,"ssss");
+
+        System.out.println(chm);
+        chm.delete(125);
+        System.out.println("-------------");
+        System.out.println(chm);
+
+        chm.put(125,"aaaa");
+
+        System.out.println(chm);
+        chm.delete(125);
+        System.out.println("-------------");
         System.out.println(chm);
     }
 }
